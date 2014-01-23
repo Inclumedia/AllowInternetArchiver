@@ -2,9 +2,7 @@
 /**
  * Initialization file for the AllowInternetArchiver extension.
  * 
- * This extension looks up all the wikilinks on a page that would otherwise be red and compares them
- * to a table of page titles to determine whether they exist on a remote wiki. If so, the wikilink
- * turns blue and links to the page on the remote wiki.
+ * This extension allows the Internet Archiver to index the wiki.
  * 
  * @version 1.0.0 - 2014-01-21
  * 
