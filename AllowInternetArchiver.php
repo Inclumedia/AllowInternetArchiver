@@ -1,19 +1,20 @@
 <?php
 /**
- * AllowInternetArchiver extension by Leucosticte
- * URL: http://www.mediawiki.org/wiki/Extension:AllowInternetArchiver
- *
- * This program is free software. You can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version. You can also redistribute it and/or
- * modify it under the terms of the Creative Commons Attribution 3.0 license.
- *
+ * Initialization file for the AllowInternetArchiver extension.
+ * 
  * This extension looks up all the wikilinks on a page that would otherwise be red and compares them
  * to a table of page titles to determine whether they exist on a remote wiki. If so, the wikilink
  * turns blue and links to the page on the remote wiki.
+ * 
+ * @version 1.0.0 - 2014-01-21
+ * 
+ * @link https://www.mediawiki.org/wiki/Extension:AllowInternetArchiver Documentation
+ * @link https://www.mediawiki.org/wiki/Extension_talk:AllowInternetArchiver Support
+ * @link https://github.com/Inclumedia/AllowInternetArchiver Source Code
+ *
+ * @license https://www.gnu.org/licenses/gpl-3.0.en.html GNU General Public License 3.0 or later
+ * @author Nathon Larson (Leucosticte)
  */
-
 
 /* Alert the user that this is not a valid entry point to MediaWiki if they try to access the
 special pages file directly.*/
@@ -29,7 +30,7 @@ EOT;
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'AllowInternetArchiver',
-	'author' => 'Leucosticte',
+	'author' => 'Nathan Larson',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AllowInternetArchiver',
 	'descriptionmsg' => 'allowinternetarchiver-desc',
 	'version' => '1.0.0',
